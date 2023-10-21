@@ -8,6 +8,7 @@ import Newsletter from "./newsletter/newsletter";
 import Footer from "./footer/footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import About from "./about/about";
 
 export default function Home() {
   useEffect(() => {
@@ -56,9 +57,9 @@ export default function Home() {
           </div>
         </div>
         <Destination />
-        {/* <About /> */}
         <Services />
         <Newsletter />
+        <About />
       </main>
       <Footer />
     </>
