@@ -4,8 +4,8 @@
 
 ### Deployment link :
 
+- https://tripify-react-vite.vercel.app/
 - https://tripify-sanh16.vercel.app/
-- https://tripify-three.vercel.app/
 
 ## Slicing from figma
 
