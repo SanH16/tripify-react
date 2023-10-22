@@ -448,4 +448,9 @@ ul {
   h1.newsletter {
     font-size: 30px;
   }
+
+  .tour-container h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 }
