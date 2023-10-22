@@ -317,8 +317,10 @@ ul {
 }
 
 .video-container {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  max-width: 600px;
+  max-width: 530px;
   margin-inline: auto;
   height: 300px;
   overflow: hidden;
