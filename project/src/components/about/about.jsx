@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../../assets/img/video.mp4";
+import video from "../../assets/img/video-tripify.mp4";
 import { SmileOutlined } from "@ant-design/icons";
 import { Col, Space } from "antd";
 import Paragraph from "antd/es/typography/Paragraph";
@@ -19,7 +19,7 @@ export default function About() {
             Watch Our Video Tour
           </h4>
           <div className="video-container">
-            <video src={video} autoPlay loop muted />
+            <video src={video} controls autoPlay loop muted />
           </div>
         </div>
       </section>
