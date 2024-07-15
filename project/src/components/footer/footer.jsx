@@ -1,4 +1,3 @@
-import React from "react";
 import logoFooter from "../../assets/icon/logo-tripify.svg";
 
 export default function Footer() {
@@ -23,22 +22,27 @@ export default function Footer() {
             </li>
           </ul>
           <div className="icon-hover">
-            <a href="https://github.com/SanH16" target="_blank" style={{ textDecoration: "none" }}>
+            <a href="https://github.com/SanH16" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
               <li>
                 <i className="fab fa-github" />
               </li>
             </a>
-            <a href="https://instagram.com/crzans" target="_blank" style={{ textDecoration: "none" }}>
+            <a href="https://instagram.com/crzans" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
               <li>
                 <i className="fab fa-instagram" />
               </li>
             </a>
-            <a href="https://youtube.com/@adhityasan16" target="_blank" style={{ textDecoration: "none" }}>
+            <a
+              href="https://youtube.com/@adhityasan16"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none" }}
+            >
               <li>
                 <i className="fab fa-youtube" />
               </li>
             </a>
-            <a href="https://facebook.com/thegamersmock" target="_blank">
+            <a href="https://facebook.com/thegamersmock" target="_blank" rel="noreferrer">
               <li>
                 <i className="fab fa-facebook-f" />
               </li>

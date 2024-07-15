@@ -1,4 +1,3 @@
-import React from "react";
 import video from "../../assets/img/video-tripify.mp4";
 import { SmileOutlined } from "@ant-design/icons";
 import { Col, Space } from "antd";
